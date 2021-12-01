@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/game.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+
+  <title>Rescue Game</title>
+</head>
+
+<body>
+  <main id="container">
+    <section id="gameBackground">
+      <div id="start">
+        <h1>Resgate</h1>
+        <p>Utilize a tecla W para movimentar o helicópetro para cima, a tecla S para movimentar o helicóptero para baixo
+          e a tecla D para atirar.</p>
+        <p>Clique aqui para iniciar!!</p>
+      </div>
+    </section>
+  </main>
+
+  <audio src="assets/sons/som.mp3" preload="auto" id="shootSong"></audio>
+  <audio src="assets/sons/explosao.mp3" preload="auto" id="explosionSong"></audio>
+  <audio src="assets/sons/musica_fundo.mp3" preload="auto" id="music"></audio>
+  <audio src="assets/sons/gameover.mp3" preload="auto" id="gameOverSong"></audio>
+  <audio src="assets/sons/perdido.mp3" preload="auto" id="lostSong"></audio>
+  <audio src="assets/sons/resgate.mp3" preload="auto" id="rescueSong"></audio>
+
+  <script type="text/javascript" src="./assets/js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="./assets/js/jquery-collision.min.js"></script>
+  <script type="module" src="./scripts/game.js"></script>
+</body>
+
+</html>
